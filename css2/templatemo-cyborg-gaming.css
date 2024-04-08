@@ -1,0 +1,53 @@
+
+.live-stream .thumb {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.live-stream .thumb img {
+  border-radius: 23px; 
+}
+
+.live-stream .thumb:hover .hover-effect {
+  opacity: 1;
+  visibility: visible;
+}
+
+.live-stream .hover-effect {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .4s;
+}
+
+.live-stream .hover-effect .live a { 
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 5px 10px;
+  border-radius: 23px;
+  color: #fff;
+  font-size: 14px;
+  right: 15px;
+  top: 15px;
+}
+
+.live-stream .hover-effect ul {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.live-stream .hover-effect ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}.live-stream .hover-effect ul li a {
+background-color: rgb(0, 0, 0);
+padding: 5px 10px;
+border-radius: 23px;
+color: #fff;
+font-size: 14px;
+}
+
+
+
